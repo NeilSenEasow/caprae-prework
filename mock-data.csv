@@ -1,0 +1,11 @@
+Company,Revenue,Industry,Has_Email,Has_Phone
+Acme Corp,5000000,Tech,True,False
+Beta Inc,20000000,Finance,True,True
+Gamma LLC,12000000,Health,False,True
+Delta Ltd,4000000,Retail,True,False
+Epsilon GmbH,25000000,Tech,False,True
+Omicron Co,3000000,Other,True,True
+Zeta Ventures,18000000,Finance,False,False
+Kappa Tech,15000000,Tech,True,True
+Lambda Health,10000000,Health,True,False
+Sigma Retailers,8000000,Retail,False,True
