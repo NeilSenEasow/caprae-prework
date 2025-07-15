@@ -1,4 +1,3 @@
-````markdown
 # Caprae Capital Pre-Work Report
 ## Feature: Lead Scoring & Prioritization
 
@@ -21,7 +20,6 @@ Each lead receives a numeric score based on:
 
 ```python
 score = (revenue / 1_000_000) + industry_weight + contact_info_score
-````
 
 The leads are then sorted in descending order of score to surface the best opportunities first.
 
