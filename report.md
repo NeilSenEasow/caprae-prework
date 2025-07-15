@@ -1,16 +1,3 @@
-Awesome! 🎉 One big step closer.
-
-Next up: ✅ **`report.md`** — which is your **1-page explanation** of your approach.
-
----
-
-### 🔽 What To Do
-
-1. Create a file in the repo called `report.md`
-2. Paste this in (or convert to PDF if they explicitly asked for that):
-
----
-
 ````markdown
 # Caprae Capital Pre-Work Report
 ## Feature: Lead Scoring & Prioritization
@@ -54,14 +41,4 @@ The feature simulates how AI or data logic can be used to **optimize B2B outreac
 
 ---
 
-```
-
----
-
-Once that’s done:
-
-✅ Your repo will contain all required deliverables.  
-🟡 All that remains is the **video walkthrough**.
-
-Let me know if you want the **60–90 second video script** now — I’ll tailor it based on your work and keep it confident and concise.
 ```
