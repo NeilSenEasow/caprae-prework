@@ -1,3 +1,4 @@
+Company,Revenue,Industry,Has_Email,Has_Phone
 Acme Corp,5000000,Tech,True,False
 Beta Inc,20000000,Finance,True,True
 Gamma LLC,12000000,Health,False,True
