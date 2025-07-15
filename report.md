@@ -18,7 +18,7 @@ Each lead receives a numeric score based on:
 - **Industry**: Certain industries (like Tech, Finance) receive a weight bonus
 - **Contact Info**: Leads with both email and phone receive additional score boosts
 
-```python
+
 score = (revenue / 1_000_000) + industry_weight + contact_info_score
 
 The leads are then sorted in descending order of score to surface the best opportunities first.
@@ -38,5 +38,3 @@ The leads are then sorted in descending order of score to surface the best oppor
 The feature simulates how AI or data logic can be used to **optimize B2B outreach**, making the lead generation process more strategic. This aligns closely with Caprae Capital’s emphasis on **practical AI implementation post-acquisition**.
 
 ---
-
-```
