@@ -1,40 +1,46 @@
-# Caprae Capital Pre-Work Report
-## Feature: Lead Scoring & Prioritization
+# Caprae Capital Pre-Work Report  
+## Feature Developed: Lead Scoring & Prioritization
 
-### 🧠 Objective
-The task was to identify a valuable feature enhancement for the lead generation tool [saasquatchleads.com](https://www.saasquatchleads.com) and implement it within a 5-hour coding window. I chose to create a **Lead Scoring and Prioritization** feature designed to help sales teams focus on the most valuable leads.
+### Objective  
+As part of the AI-Readiness Pre-Screening Challenge, I analyzed the existing lead generation platform [saasquatchleads.com](https://www.saasquatchleads.com) to identify a practical enhancement that could deliver tangible value to users within a 5-hour development window.
 
----
-
-### 💡 Why This Feature?
-The existing tool gathers leads from various sources, but it doesn't prioritize them. This makes it hard for sales teams to know which leads are most likely to convert. A lead scoring system introduces structure and allows sales reps to focus on **high-impact opportunities first** — improving efficiency and ROI.
+I chose to develop a **Lead Scoring and Prioritization** feature that helps sales teams quickly identify and focus on their highest-value leads.
 
 ---
 
-### 🔍 Scoring Logic Summary
+### Rationale  
+While the current platform effectively aggregates potential leads, it treats all leads equally — lacking a mechanism to distinguish high-potential opportunities from lower-priority ones. This results in inefficiencies for users relying on the tool for outbound sales.
 
-Each lead receives a numeric score based on:
-- **Revenue**: Higher revenue = higher score (scaled by millions)
-- **Industry**: Certain industries (like Tech, Finance) receive a weight bonus
-- **Contact Info**: Leads with both email and phone receive additional score boosts
-
-
-score = (revenue / 1_000_000) + industry_weight + contact_info_score
-
-The leads are then sorted in descending order of score to surface the best opportunities first.
+By introducing a lead scoring system, the platform can better align with the needs of sales professionals who want to prioritize outreach based on business potential. This added layer of intelligence transforms a static lead list into a more actionable, insight-driven resource.
 
 ---
 
-### ⚙️ Tools Used
+### Scoring Methodology  
 
-* Python
-* Jupyter Notebook
-* Libraries: `pandas`, `numpy`
+Each lead is assigned a numeric score calculated from the following factors:
+
+- **Revenue**: Normalized by millions — higher revenue suggests greater deal size and interest.
+- **Industry**: Weighted based on relevance to SaaS sales (e.g., Tech = high weight, Retail = lower weight).
+- **Contact Availability**: Additional points are added if both email and phone contact information are present.
+
+**Formula used**:
+
+Score = (Revenue / 1,000,000) + Industry Weight + Contact Info Bonus
+
+
+The final dataset is sorted by this score to produce a prioritized lead list.
 
 ---
 
-### ✅ Business Relevance
-
-The feature simulates how AI or data logic can be used to **optimize B2B outreach**, making the lead generation process more strategic. This aligns closely with Caprae Capital’s emphasis on **practical AI implementation post-acquisition**.
+### Tools & Technologies  
+- Python  
+- Jupyter Notebook  
+- `pandas`, `numpy`  
 
 ---
+
+### Business Impact  
+This feature helps reduce time spent on low-quality leads, improves targeting, and introduces structure to the lead management process. It demonstrates a simple yet powerful way to apply data scoring within a sales workflow — consistent with Caprae Capital’s focus on enabling AI-readiness in real-world business operations.
+
+---
+
